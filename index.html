@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Burger Website </title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+   <header class="header" id="header">
+    <nav class="nav container">
+        <a class="nav__logo" href="#"><img class="nav__logo-img" src="./img/logo-burger.svg" alt="Logo Burger"><span>Burger</span></a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list" id="nav-list">
+                <li class="nav__item"><a class="nav__link active-link" href="#home">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#recipe">Recipe</a></li>
+                <li class="nav__item"><a class="nav__link" href="#popular">Popular</a></li>
+                <li class="nav__item"><a class="nav__link" href="#delivery">Delivery</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav__btns">
+            <i class='bx bx-grid-alt' id="hamburger"></i>
+        </div>
+    </nav>
+</header>
+
+    <section class="home" id="home">
+        <div class="home__container">
+            <div class="home__data">
+                <h1 class="home__title">Love Every Burger</h1>
+                <p class="home__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+                    exercitationem dolore aut odit. Vitae enim sapiente libero earum mollitia autem sunt similique
+                    assumenda praesentium totam. Consectetur dolor itaque voluptas ea.</p>
+                <a href="#" class="btn">Bite Now</a>
+                <img src="./img/sticker-potatoes.svg" alt="stiker">
+            </div>
+            <div class="home__img">
+                <img class="home-burger" src="./img/home-burger.png" alt="burger">
+                <img class="home-dish abosolute" src="./img/home-dish.png">
+                <img class="home-potato1 abosolute ingredient" src="./img/home-potato.png">
+                <img class="home-potato2 abosolute ingredient" src="./img/home-potato.png">
+                <img class="home-tomato abosolute ingredient" src="./img/home-tomato.png">
+                <img class="home-lettuce abosolute ingredient" src="./img/home-lettuce.png">
+            </div>
+        </div>
+    </section>
+<!-- //////////////////////////////////////////////////////////////////// -->
+    <section class="recipe" id="recipe">
+        <h2 class="section__title">Our Secret Recipe </h2>
+        <div class="recipe__container">
+            <div class="recipe__img">
+                <img src="./img/recipe-burger.png">
+            </div>
+            <div class="recipe__description">
+
+                <div class="recipe__box">
+                    <div class="image">
+                        <img src="./img/recipe-bread.png">
+                    </div>
+                    <div class="conten">
+                        <h5>Bread</h5>
+                        <p>Fresh bread, baked to perfection.</p>
+                    </div>
+                </div>
+                <div class="recipe__box">
+                    <div class="image">
+                        <img src="./img/recipe-cheese.png">
+                    </div>
+                    <div class="conten">
+                        <h5>Cheese</h5>
+                        <p>Cheese for a fantastic and healthy future.</p>
+                    </div>
+                </div>
+                <div class="recipe__box">
+                    <div class="image">
+                        <img src="./img/recipe-meat.png">
+                    </div>
+                    <div class="conten">
+                        <h5>Meat</h5>
+                        <p>100% pure beef, big and meaty.</p>
+                    </div>
+                </div>
+                <div class="recipe__box">
+                    <div class="image">
+                        <img src="./img/recipe-vegetable.png">
+                    </div>
+                    <div class="conten">
+                        <h5>Vegetables</h5>
+                        <p>Vegetables full of the essence of nature and organic.</p>
+                    </div>
+                </div>
+                <div class="recipe__box">
+                    <div class="image">
+                        <img src="./img/recipe-sauces.png">
+                    </div>
+                    <div class="conten">
+                        <h5>Sauces</h5>
+                        <p>Fresh sauces, delicious for the palate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Section -->
+<section class="popular" id="popular">
+    <h2 class="section__title">Popular Burgers</h2>
+    <div class="popular__container">
+        <div class="popular__card">
+            <img src="./img/home-burger.png" alt="Burger 1">
+            <h3>Cheese Burger</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="popular__card">
+            <img src="./img/home-burger.png" alt="Burger 2">
+            <h3>Beef Burger</h3>
+            <p>Quisque aliquet velit sit amet sem interdum, nec pellentesque lorem.</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="popular__card">
+            <img src="./img/home-burger.png" alt="Burger 3">
+            <h3>Veggie Burger</h3>
+            <p>Integer non velit ac turpis pharetra vulputate.</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </div>
+</section>
+
+<!-- Delivery Section -->
+<section class="delivery" id="delivery">
+    <h2 class="section__title">Fast Delivery</h2>
+    <div class="delivery__container">
+        <div class="delivery__img">
+            <img src="./img/sticker-potatoes.svg" alt="Delivery">
+        </div>
+        <div class="delivery__data">
+            <h3>We Deliver Your Burger Fast & Fresh</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem adipisci, placeat quia doloribus. Perferendis, vitae?</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2 class="section__title">Contact Us</h2>
+    <div class="contact__container">
+        <div class="contact__info">
+            <h3>Get in Touch</h3>
+            <p>Feel free to reach out to us with any questions or comments!</p>
+            <div class="contact__details">
+                <div class="contact__detail">
+                    <i class='bx bxs-phone'></i>
+                    <p>+123 456 7890</p>
+                </div>
+                <div class="contact__detail">
+                    <i class='bx bxs-envelope'></i>
+                    <p>info@burgerwebsite.com</p>
+                </div>
+                <div class="contact__detail">
+                    <i class='bx bxs-map'></i>
+                    <p>123 Burger Street, Food City, Yummyland</p>
+                </div>
+            </div>
+        </div>
+        <form class="contact__form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__logo">
+            <a href="#"><img src="./img/logo-burger.svg" alt="logo"><span>Burger</span></a>
+        </div>
+        <ul class="footer__list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recipe">Recipe</a></li>
+            <li><a href="#popular">Popular</a></li>
+            <li><a href="#delivery">Delivery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer__socials">
+        <a href="https://www.facebook.com/renad.saad.104?locale=ar_AR" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/renad8514/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/Renadsa55675206"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </div>
+    <p class="footer__copy">&#169; 2024 Burger. All rights reserved.</p>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
